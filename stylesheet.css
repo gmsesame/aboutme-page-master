@@ -1,0 +1,190 @@
+li{
+	list-style: none;
+}
+
+/*ヘッダーここから*/
+header{
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	/*line-height: 50px;*/
+	box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
+	z-index: 10;
+}
+
+.header-left{
+	float: left;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+
+.header-right{
+	float: right;
+	margin-right: 40px;
+}
+
+.header-right li{
+	float: left;
+}
+
+.header-right a {
+	color: #323A45;
+	font-weight: 700;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.header-right a:hover {
+	color: #5983ff;
+	transition: color .3s;
+}
+/*ヘッダーここまで*/
+
+.top-contents{
+	padding: 20px 100px;
+	background-image: url(img/newyear1.jpg);
+	background-size: cover;
+	color: white;
+	height: 800px;
+}
+
+.year{
+	font-size: 100px;
+}
+
+.massage{
+	font-size: 100px;
+	letter-spacing: 10px;
+}
+
+.main-contents{
+	margin-top: 40px;
+	margin-right: 200px;
+}
+
+.content{
+	border: 2px dotted white;
+	width: 250px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 30px;
+	padding: 50px 50px;
+}
+
+
+/*自己紹介*/
+.middle-first-contents{
+	height: 800px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #ffefef;
+}
+
+.introduction{
+	margin: auto;
+	width: 600px;
+	height: 800px;
+	border: 2px dotted #808080;
+}
+
+.introduction img{
+	display: block;
+	margin: 0 auto;
+}
+
+.introduction h1,p{
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+/*ポートフォリオ*/
+.middle-second-contents{
+	border-top: 1px dotted #808080;
+	height: 800px;
+	background-color: #ffefef;
+}
+
+.portfolio {
+	width: 500px;
+	height: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.portfolio img{
+	margin-left: 130px;
+}
+
+.portfolio h1{
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+/*モーダル*/
+.portfolio-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 100;
+	display: none;
+}
+
+.modal {
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	background-color: #e6ecf0;
+	padding: 20px 0 40px;
+	border-radius: 10px;
+	width: 900px;
+	height: auto;
+	text-align: center;
+}
+
+.fa-times {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	color: rgba(128, 128, 128, 0.46);
+	cursor: pointer;
+}
+
+#portfolio-form{
+	width: 100%;
+}
+
+#portfolio-form h2 {
+	color: #5f5d60;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+}
+
+#portfolio-form p {
+	color: #5f5d60;
+	letter-spacing: 1px;
+}
+
+#portfolio-form img{
+	float: left;
+	margin-left: 30px;
+}
+
+/*フッター*/
+footer{
+	background-color: #808080;
+	height: 150px;
+	padding-top: 50px;
+	border-top: 2px solid #808080;
+}
+
+footer p{
+	letter-spacing: 2px;
+}
